@@ -33,7 +33,7 @@ with st.sidebar:
 
 st.sidebar.markdown('''
 ---
-Created with ❤️ by [Amaan Arif].
+Created with ❤️ by Amaan Arif.
 '''
 
 ) 
