@@ -52,7 +52,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 if (selected == 'Diabetes Prediction'):
     
     # page title
-    st.title('Diabetes Prediction using ML')
+    st.title('Diabetes Prediction App')
     
     
     # getting the input data from the user
