@@ -30,8 +30,24 @@ with st.sidebar:
                            'Parkinsons Prediction'],
                           icons=['activity','heart','person'],
                           default_index=0)
+
+st.sidebar.markdown('''
+---
+Created with ❤️ by [Amaan Arif].
+'''
+
+) 
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)   
     
-    
+
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
     
