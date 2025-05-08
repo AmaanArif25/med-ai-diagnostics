@@ -1,1 +1,1 @@
-# ML-App
+# med-ai-diagnostics
